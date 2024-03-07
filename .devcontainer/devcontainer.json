@@ -1,0 +1,8 @@
+{
+  "name": "Dev-Container",
+  "dockerComposeFile": ["../docker-compose.yaml"],
+  "service": "docker-compose-gateway",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "node",
+}
